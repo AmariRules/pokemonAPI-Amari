@@ -97,3 +97,55 @@ This README provides a comprehensive guide to running the PokeAPI SDK, including
 6. Running unit tests to validate functionality.
 
 Enjoy exploring the world of Pokémon through the PokeAPI SDK!
+
+### Key guidelines:
+## Showcasing the Best Developer Experience
+
+This SDK is designed with the developer experience in mind, emphasizing clarity, usability, and reliability. The following features showcase what the best developer experience means to me:
+
+1. **Intuitive Interface**: The SDK provides clear and descriptive method names (e.g., `get_pokemon`, `get_generation`), allowing developers to understand functionality at a glance without needing extensive documentation.
+
+2. **Error Handling**: Custom exceptions are used to provide meaningful error messages. When developers encounter issues, they receive detailed feedback that aids in debugging, enhancing their workflow.
+
+3. **Model Representation**: By encapsulating API responses in well-defined models (like `Pokemon` and `Generation`), developers can work with structured data that is easy to manipulate, improving the coding experience.
+
+4. **Testing and Reliability**: Comprehensive unit and integration tests ensure that the SDK behaves as expected, giving developers confidence in its functionality and reliability.
+
+## Critical Design Decisions
+
+1. **Error Handling**: 
+   - Implemented custom exceptions (`APIError`) to enhance error feedback and debugging for users.
+
+2. **Model Structures**: 
+   - Used classes (`Pokemon`, `Generation`) to represent API data, providing a structured and object-oriented approach to data management.
+
+3. **Method Naming**: 
+   - Chose clear and descriptive names for methods to make the SDK intuitive and easy to use, reducing the learning curve for new developers.
+
+4. **Testing Strategy**: 
+   - Created a robust suite of unit and integration tests to validate the SDK's functionality against the live API, ensuring reliability.
+
+5. **Documentation**: 
+   - Included a comprehensive README file to guide users through installation, usage, and testing processes, facilitating a smoother onboarding experience.
+
+## Impact on Developer Experience
+
+The design choices made in this SDK significantly enhance the developer experience:
+
+- **Clarity**: The intuitive interface and clear method names reduce confusion and help developers quickly understand how to use the SDK effectively.
+
+- **Confidence**: Comprehensive error handling and thorough testing ensure that developers can trust the SDK to behave reliably, minimizing frustration and unexpected issues.
+
+- **Efficiency**: Structured data models and clear documentation streamline the development process, allowing developers to focus on building features rather than struggling with integration details.
+
+Overall, these design decisions create a more enjoyable and productive experience for developers using the PokeAPI SDK, fostering greater engagement and satisfaction.
+
+## How to Run
+
+### 1. Download the Repository as a SDK
+
+You can download the repository from GitHub or clone it using the following command:
+
+```bash
+git clone https://github.com/yourusername/pokemonAPI-Amari.git
+cd pokemonAPI-Amari
