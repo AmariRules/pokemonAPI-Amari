@@ -23,6 +23,6 @@ def main():
         print(f"Pokémon Species in this Generation: {', '.join(generation.pokemon_species)}")
     except Exception as e:
         print(f"An error occurred while fetching generation: {e}")
-
+#new main
 if __name__ == "__main__":
     main()
