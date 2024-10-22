@@ -139,13 +139,4 @@ The design choices made in this SDK significantly enhance the developer experien
 - **Efficiency**: Structured data models and clear documentation streamline the development process, allowing developers to focus on building features rather than struggling with integration details.
 
 Overall, these design decisions create a more enjoyable and productive experience for developers using the PokeAPI SDK, fostering greater engagement and satisfaction.
-
-## How to Run
-
-### 1. Download the Repository as a SDK
-
-You can download the repository from GitHub or clone it using the following command:
-
-```bash
-git clone https://github.com/yourusername/pokemonAPI-Amari.git
-cd pokemonAPI-Amari
+ 
