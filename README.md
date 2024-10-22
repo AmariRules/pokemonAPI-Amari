@@ -97,4 +97,3 @@ This README provides a comprehensive guide to running the PokeAPI SDK, including
 6. Running unit tests to validate functionality.
 
 Enjoy exploring the world of Pokémon through the PokeAPI SDK!
-```
