@@ -26,6 +26,6 @@ class TestPokeAPI(unittest.TestCase):
         with self.assertRaises(APIError):
             self.api.get_generation("invalid_id")
 
-
+#adding main
 if __name__ == '__main__':
     unittest.main()
