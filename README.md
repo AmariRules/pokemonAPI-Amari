@@ -12,7 +12,7 @@ A Python SDK for interacting with the PokeAPI, designed to provide a seamless de
 You can download the repository from GitHub or clone it using the following command:
 
 ```bash
-g[it clone https://github.com/AmariRules/pokemonAPI-Amari.git
+git clone https://github.com/AmariRules/pokemonAPI-Amari.git
 cd pokemonAPI-Amari
 ```
 
