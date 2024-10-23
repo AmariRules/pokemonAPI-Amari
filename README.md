@@ -67,7 +67,9 @@ python tests/interactive_test_poke_api.py
 ```
 
 When prompted, enter a generation ID (e.g., "1") to see the Pokémon in that generation.
+
 When prompted, enter a Pokémeon name (e.g., "charizard", "pikachu", "ditto") to see the Pokémon in that generation and type.
+
 When prompted, enter a generation ID (e.g., "1") to see a list of Pokémon in that generation.
 
 ### 7. Run Unit Tests
