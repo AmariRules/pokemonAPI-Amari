@@ -91,7 +91,7 @@ This README provides a comprehensive guide to running the PokeAPI SDK, including
 
 1. Downloading or cloning the repository.
 2. Setting up a virtual environment.
-3. Activate the virtual environment recently created.
+3. Activate the virtual environment.
 4. Installing the required dependencies.
 5. Running example usage scripts.
 6. Executing interactive tests with user input.
