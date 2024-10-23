@@ -110,7 +110,7 @@ This SDK is designed with the developer experience in mind, emphasizing clarity,
 
 3. **Model Representation**: By encapsulating API responses in well-defined models (like `Pokemon` and `Generation`), developers can work with structured data that is easy to manipulate, improving the coding experience.
 
-4. **Testing and Reliability**: Comprehensive unit and integration tests ensure that the SDK behaves as expected, giving developers confidence in its functionality and reliability.
+4. **Testing and Reliability**: Comprehensive unit and integration tests ensure that the SDK behaves as expected, giving developers confidence in its functionality and reliability.  While interactive test with user input aren't neccessary and slows down testing, providing a sample interactive test for the developer may prove useful.
 
 ## Critical Design Decisions
 
