@@ -53,7 +53,7 @@ pip install -r requirements.txt
 To run the example usage script and see how to use the SDK, execute the following command:
 
 ```bash
-python example_usage.py
+python example_usage_api.py
 ```
 
 This will demonstrate how to fetch Pokémon and generation data using the SDK.
