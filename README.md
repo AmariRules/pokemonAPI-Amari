@@ -63,7 +63,6 @@ This will demonstrate how to fetch Pokémon and generation data using the SDK.
 To run the interactive test that allows you to input a generation ID and output Pokémon in that generation, execute:
 
 ```bash
-export PYTHONPATH=$(pwd)
 python -m unittest tests/interactive_test_poke_api.py
 ```
 
