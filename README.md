@@ -1,6 +1,5 @@
 ### README.md
 
-```markdown
 # PokeAPI SDK
 
 A Python SDK for interacting with the PokeAPI, designed to provide a seamless developer experience when working with Pokémon data.
