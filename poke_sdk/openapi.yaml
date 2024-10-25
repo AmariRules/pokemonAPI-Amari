@@ -1,0 +1,87 @@
+openapi: 3.0.0
+info:
+  title: PokeAPI SDK
+  description: A Python SDK for interacting with the PokeAPI, providing access to Pokémon data and generations.
+  version: 1.0.0
+servers:
+  - url: https://pokeapi.co/api/v2
+paths:
+  /pokemon/{identifier}:
+    get:
+      summary: Get Pokémon by name or ID
+      parameters:
+        - name: identifier
+          in: path
+          required: true
+          description: The name or ID of the Pokémon to retrieve.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response with Pokémon data
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                    example: pikachu
+                  id:
+                    type: integer
+                    example: 25
+                  types:
+                    type: array
+                    items:
+                      type: string
+                      example: electric
+        '404':
+          description: Pokémon not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  detail:
+                    type: string
+                    example: "Not found"
+
+  /generation/{id}:
+    get:
+      summary: Get generation by ID or name
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: The ID or name of the generation to retrieve.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response with generation data
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    example: 1
+                  name:
+                    type: string
+                    example: generation-i
+                  pokemon_species:
+                    type: array
+                    items:
+                      type: string
+                      example: bulbasaur
+        '404':
+          description: Generation not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  detail:
+                    type: string
+                    example: "Not found"
